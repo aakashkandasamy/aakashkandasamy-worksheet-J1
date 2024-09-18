@@ -1,5 +1,36 @@
 	"checkCode 1.A ",
 	"true",			
 	//WRITE YOUR TESTS BELOW IN THE SAME FORMAT (USE COPY-AND-PASTE)
+
+	"checkCode 99.Mustwork 67890",
+	"true",
+	
+	"checkCode 100.Shldwork 54321",
+	"true",
+	
+	"checkCode 50.Caps Updown 99999",
+	"true",
+	
+	"checkCode 01.Starting With Zero 12345",
+	"false",
+	
+	"checkCode 75.No Numbers ",
+	"true",
+	
+	"checkCode 5000.Above The Limit 12345",
+	"false",
+	
+	"checkCode 42.No Space At The End",
+	"false",
+	
+	"checkCode 123.Words arent Capitalised  ",
+	"false",
 		
+	"checkCode 25.Numbers Inside T1he Word ",
+	"false", // finds the bug 
+
+	"checkCode 25.Numbers Inside T1he Word 55555",
+	"false", // finds the bug 
+
+
 	//DO NOT CHANGE ANYTHING BELOW THIS LINE		
